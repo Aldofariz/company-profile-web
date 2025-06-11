@@ -26,7 +26,6 @@ const FeatureSection = () => {
     return (
         <section className="max-w-7xl mx-auto px-4 py-16">
             <div>
-                    {/*  Colomn atas   */}
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold mb-4">How can we help your business?</h2>
                         <p className="text-gray-600">When you resell besnik, you build trust and increase</p>
@@ -35,7 +34,6 @@ const FeatureSection = () => {
 
 
 
-                    {/* Colomn Tengah  */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {features.map((feature, index) => (
                             <div key={index} className="flex flex-col text-center items-center p-6">
@@ -52,24 +50,14 @@ const FeatureSection = () => {
                     </div>
                 
 
-                    {/* Colomn Bawah  */}
+
+
+
                     <div className="text-center mt-5">
                         <button className="bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors relative">Become a partner
                             <div className="absolute -z-10 w-full rounded-full bg-blue-600/50 blur-xl top-0 left-0"></div>
                         </button>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

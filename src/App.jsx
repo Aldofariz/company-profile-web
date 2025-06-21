@@ -2,8 +2,10 @@ import './App.css'
 import CompanyLogo from './components/CompanyLogo'
 import FeatureSection from './components/FeatureSection'
 import Hero from './components/Hero'
+import MonitorSection from './components/MonitorSection'
 import Navbar from './components/Navbar'
 import PurposeSection from './components/PurposeSection'
+import ScheduleSection from './components/ScheduleSection'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <CompanyLogo/>
       <PurposeSection/>
       <FeatureSection/>
+      <ScheduleSection/>
+      <MonitorSection/>
     
       </div>
     </main>

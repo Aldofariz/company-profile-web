@@ -24,7 +24,8 @@ const Navbar = () => {
                 {/* logo */}
                 <div className="flex items-center gap-1 cursor-pointer">
                     <div className="w-4 h-4 bg-blue-700 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
-                    <div className="w-4 h-4 bg-red-700 -ml-2 rounded-full opacity-100 hover:opacity-75 transition-opacity"></div>
+                    <div className="w-4 h-4 bg-green-700 -ml-2 rounded-full opacity-100 hover:opacity-75 transition-opacity"></div>
+                    <h2 className="font-semibold text-lg">BinaKarya</h2>
                 </div>
 
 

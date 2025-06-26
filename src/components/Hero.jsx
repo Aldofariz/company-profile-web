@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/hero-image.png"
+import heroImage from "../assets/analyzing visually represented data on tablet.png"
 
 const Hero = () => {
     return (
@@ -12,14 +12,14 @@ const Hero = () => {
                 <span className="text-sm font-medium">Jump Start Your Growth</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">We boost the growth for  
+            <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold leading-tight">Unlocking growth potential  
                 <span n className="text-blue-600 relative inline-block"> 
-                    Startup to Fortune 500 
+                    from new startups to established
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span> 
                 </span> 
                     Companies
                 <span className="inline-block ml-2 animate-pulse">
-                    ⏰ 
+                    🌟
                 </span>
             </h1>
 
